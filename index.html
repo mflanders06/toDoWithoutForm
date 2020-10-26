@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script module src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,8 +14,6 @@
         <input type="text" id="taskDescription" ><br>
     <label >Date:</label>
         <input type="date" id="taskDate" ><br>
-    <button type="button" onclick="submit(taskName.value, taskDescription.value, taskDate.value)">Submit</button>
-
-    <script src="index.js"></script>
+    <button type="button" onclick="submit(taskName.value, taskDescription.value, taskDate.value); usingDocDotGetElement();">Submit</button>
 </body>
 </html>
